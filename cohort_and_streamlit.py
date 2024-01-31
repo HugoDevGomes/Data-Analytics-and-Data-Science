@@ -17,7 +17,7 @@ st.subheader('Como construir uma Cohort')
 #Carreganento do DataSet
 st.write('Vamos começar carregando o nosso dataset, iremos utilizar um data set que tenha um tipo de recorrência de seus clientes. Para isso vamos baixar do Kaagle o "Online Retail Data Set From UCI ML repo"')
 st.image(image='https://lh4.googleusercontent.com/8B7Jziotu7Mblb5y2jJ7UUkGpuBnKZBTUSs18w-ZEVIoW76vc9X_lZOCuGDCO2LRjXBxeoMaidKK1qcYoh6fbM1iKjdvXxUXNZ3w47fHcqJK4R9T13_L0PVWSGExEX3Vf6HgAEWsLiTzWB0PtCKMJqo',caption='DataSet')
-retail = pd.read_excel(r"https://enviowhatsapp.files.wordpress.com/2024/01/online-retail.xlsx")
+retail = pd.read_csv(r"https://www.dropbox.com/scl/fi/tnec85jwkmrs3me4ly513/Online-Retail.csv?rlkey=roirpihixid05akwdqc720pf8&dl=1")
 
 #Visualizando Dados Dinâmico
 filter_country = st.multiselect('Select Country:', retail['Country'].unique())
