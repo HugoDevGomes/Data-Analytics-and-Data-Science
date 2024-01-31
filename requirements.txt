@@ -3,4 +3,4 @@ numpy
 pandas 
 seaborn 
 matplotlib
-pip install openpyxl
+openpyxl
