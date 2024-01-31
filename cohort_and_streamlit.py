@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import censusdata
-from dateutil.relativedelta import relativedelta
 
 # Configurações Inicias
 st.set_option('deprecation.showPyplotGlobalUse', False)
