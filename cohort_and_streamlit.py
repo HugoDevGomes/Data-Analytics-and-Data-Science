@@ -95,3 +95,25 @@ sns.heatmap(
 
 plt.title('Matriz de Retenção', size=14)
 st.pyplot()
+
+st.subheader('Rastrear e Investigar')
+st.write("""A principal função da análise cohort é rastrear e investigar o desempenho de seus usuários ao longo do tempo e obter respostas para perguntas como:
+
+Os novos clientes que você está adquirindo são mais (ou menos) valiosos do que os usuários anteriores?
+As alterações que você fez em seu site afetaram positiva ou negativamente a jornada do seu cliente?
+Existem diferenças sazonais entre os usuários que você adquire? 
+Qual é a sua taxa de retenção?
+Quando os usuários começam em churn?
+Será que os clientes que você adquiriu no mês passado agem de forma diferente daqueles que se inscreveram no mês anterior? 
+Os usuários que responderam a um desconto ou promoção se comportam de maneira semelhante ou não daqueles que compraram pelo preço integral?""")
+st.subheader('Desempenho da Análise')
+st.write("""Criar o hábito de verificar o desempenho dessa análise te permite conquistar uma variedade de métricas e serve, especialmente, para:
+
+Identificar problemas mais cedo: você pode ver tendências nos cohorts mais recentes sem correr o risco dos resultados serem mascarados pelo restante da base de dados;
+Criar previsões mais assertivas: conhecendo os comportamentos sazonais, você pode incorporá-los às suas expectativas de performance futura;
+Saber como os comportamentos dos usuários afetam seu negócio: veja como as ações realizadas ou não por seus cohorts se traduzem em mudanças nas métricas da sua empresa, como aquisição e retenção;
+Entender o churn do seu cliente: avalie hipóteses para entender quais ações incentivam uma maior rotatividade;
+Calcular o valor da vida útil do cliente: veja quanto os seus clientes valem para a empresa ao longo do tempo. Você pode, inclusive, agrupar ainda mais esses cohorts para avaliar quais canais de aquisição levam ao melhor valor de vida útil do cliente (LTV);
+Otimizar seu funil de conversão: descubra como a experiência do usuário em todo o funil de marketing digital se traduz em valor para seus clientes;
+Criar um relacionamento mais eficaz com o cliente: à medida que você identifica padrões, fica mais fácil se relacionar com os seus usuários.
+A análise responde tantas perguntas que permite que uma empresa identifique padrões claros em diferentes grupos de clientes.""")
