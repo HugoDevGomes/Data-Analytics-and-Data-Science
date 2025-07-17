@@ -1,0 +1,6 @@
+body{background-color:#18181B;color:#F5F5F5;font-family:sans-serif}
+a{color:#24FF8B}
+.sidebar{width:80px;background-color:#111;position:fixed;height:100%;padding:1rem}
+.main{margin-left:80px;padding:1rem;display:grid;grid-gap:16px}
+.range-card{background:#222;padding:1rem;border-radius:8px}
+.kpi{font-size:24px;color:#24FF8B}
